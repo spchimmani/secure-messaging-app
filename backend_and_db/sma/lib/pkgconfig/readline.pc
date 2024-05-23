@@ -1,0 +1,12 @@
+prefix=/Users/Dimpu07/Desktop/secure_chat_v2/backend_and_db/sma
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Readline
+Description: Gnu Readline library for command line editing
+URL: http://tiswww.cwru.edu/php/chet/readline/rltop.html
+Version: 8.2
+Requires.private: ncurses
+Libs: -L${libdir} -lreadline
+Cflags: -I${includedir}
