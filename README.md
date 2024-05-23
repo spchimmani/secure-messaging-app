@@ -11,7 +11,7 @@ The Secure Messaging Application is designed to provide a secure platform for di
 
 ## Technologies Used
 - Python 3
-- Flask for the backend
+- FastApi for the backend
 - React for the frontend
 - MySQL for the database
 - Libraries: PyCrypto for encryption, PIL for image handling, and Pydub for audio processing.
